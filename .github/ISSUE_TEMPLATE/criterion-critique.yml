@@ -1,0 +1,76 @@
+name: Critique a criterion
+description: For historians and oral historians. Which criteria are wrong, missing, or miscredited?
+title: "[Criterion] "
+labels: ["criterion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. The rubric is preliminary and this is the feedback it most needs. The full text is at https://auto-autobiography.stephenmucher.org/rubric.html
+  - type: dropdown
+    id: criterion
+    attributes:
+      label: Which criterion?
+      options:
+        - "A criterion is missing"
+        - "The rubric as a whole"
+        - "E1 Inclusive (Elicit)"
+        - "E2 Trained (Elicit)"
+        - "E3 Scoped (Elicit)"
+        - "E4 Transparent (Elicit)"
+        - "E5 Consent-based (Elicit)"
+        - "E6 Responsive (Elicit)"
+        - "E7 Accurate (Elicit)"
+        - "E8 Candid (Elicit)"
+        - "E9 Protective (Elicit)"
+        - "E10 Relational (Elicit)"
+        - "E11 Collaborative (Elicit)"
+        - "E12 Community-engaged (Elicit)"
+        - "R1 Faithful (Re-tell)"
+        - "R2 Documented (Re-tell)"
+        - "R3 Accountable (Re-tell)"
+        - "R4 Reviewable (Re-tell)"
+        - "R5 Tentative (Re-tell)"
+        - "R6 Protective (Re-tell)"
+        - "R7 Co-Authorship (Re-tell)"
+        - "T1 Questions Framing (Interpret)"
+        - "T2 Determines Significance (Interpret)"
+        - "T3 Establishes Chronology (Interpret)"
+        - "T4 Explores cause/contingency (Interpret)"
+        - "T5 Sources (Interpret)"
+        - "T6 Contextualizes (Interpret)"
+        - "T7 Decodes (Interpret)"
+        - "T8 Considers Perspective (Interpret)"
+        - "T9 Reconciles Inconsistencies (Interpret)"
+        - "K1 Enduring (Retain)"
+        - "K2 Traceable (Retain)"
+        - "K3 Catalogued (Retain)"
+        - "K4 Accessible (Retain)"
+        - "K5 Co-owned (Retain)"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is the problem?
+      options:
+        - Wrong
+        - Missing
+        - Miscredited (the anchor to OHA, NCHS, or AHA is off)
+        - Unclear wording
+        - In the wrong category
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: critique
+    attributes:
+      label: Your critique
+      description: Say what you would change and why. Point to a source if one applies.
+    validations:
+      required: true
+  - type: input
+    id: background
+    attributes:
+      label: Your field or practice (optional)
+      placeholder: Oral historian, archivist, public historian, graduate student

@@ -1,0 +1,65 @@
+name: Respond to a prompt
+description: For professionals who design elicitation systems. How would your agent address one of these prompts?
+title: "[System] "
+labels: ["system-response"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Each criterion carries a prompt in the form "How does the agent ...?" Pick one and describe how your system addresses it. Where a system cannot address a criterion at all, the gap is itself a finding. The prompts are at https://auto-autobiography.stephenmucher.org/rubric.html
+  - type: dropdown
+    id: criterion
+    attributes:
+      label: Which prompt?
+      options:
+        - "E1 Inclusive (Elicit)"
+        - "E2 Trained (Elicit)"
+        - "E3 Scoped (Elicit)"
+        - "E4 Transparent (Elicit)"
+        - "E5 Consent-based (Elicit)"
+        - "E6 Responsive (Elicit)"
+        - "E7 Accurate (Elicit)"
+        - "E8 Candid (Elicit)"
+        - "E9 Protective (Elicit)"
+        - "E10 Relational (Elicit)"
+        - "E11 Collaborative (Elicit)"
+        - "E12 Community-engaged (Elicit)"
+        - "R1 Faithful (Re-tell)"
+        - "R2 Documented (Re-tell)"
+        - "R3 Accountable (Re-tell)"
+        - "R4 Reviewable (Re-tell)"
+        - "R5 Tentative (Re-tell)"
+        - "R6 Protective (Re-tell)"
+        - "R7 Co-Authorship (Re-tell)"
+        - "T1 Questions Framing (Interpret)"
+        - "T2 Determines Significance (Interpret)"
+        - "T3 Establishes Chronology (Interpret)"
+        - "T4 Explores cause/contingency (Interpret)"
+        - "T5 Sources (Interpret)"
+        - "T6 Contextualizes (Interpret)"
+        - "T7 Decodes (Interpret)"
+        - "T8 Considers Perspective (Interpret)"
+        - "T9 Reconciles Inconsistencies (Interpret)"
+        - "K1 Enduring (Retain)"
+        - "K2 Traceable (Retain)"
+        - "K3 Catalogued (Retain)"
+        - "K4 Accessible (Retain)"
+        - "K5 Co-owned (Retain)"
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: The system or product (optional)
+      description: Name it or describe it in general terms. Do not post anything confidential.
+  - type: textarea
+    id: response
+    attributes:
+      label: How does the agent address this prompt?
+    validations:
+      required: true
+  - type: textarea
+    id: vocabulary
+    attributes:
+      label: What would your field call this? (optional)
+      description: The project sets the vocabulary of historians beside the vocabulary of system designers. Different terms for the same thing are useful to hear.

@@ -1,0 +1,38 @@
+name: Share an account
+description: For anyone familiar with ABER products through a parent or grandparent. What did it ask, and what did it miss?
+title: "[Account] "
+labels: ["consumer-account"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This page is public. Please do not post names, private family details, or anything the storyteller would not want shared. If you would rather write privately, email stephen@sondagestandard.com.
+  - type: dropdown
+    id: product
+    attributes:
+      label: Which product?
+      options:
+        - Storyworth
+        - Remento
+        - Autobiographer
+        - StoryFile
+        - Ancestry
+        - Another product
+    validations:
+      required: true
+  - type: textarea
+    id: asked
+    attributes:
+      label: What did it ask?
+    validations:
+      required: true
+  - type: textarea
+    id: missed
+    attributes:
+      label: What did it miss?
+    validations:
+      required: true
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else? (optional)
