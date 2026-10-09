@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this rubric, please cite it as below."
+type: dataset
+title: "ABER and Oral History: Comparison Rubric"
+abstract: "A preliminary rubric of 33 criteria in four categories (Elicit, Re-tell, Interpret, Retain) that consolidates the disciplinary practices of oral history in a form that facilitates comparison with Automated Biographical Elicitation and Re-tell (ABER) and its product, auto-autobiography."
+authors:
+  - family-names: Mucher
+    given-names: Stephen
+    orcid: "https://orcid.org/0009-0000-8310-0469"
+    affiliation: "Digital Life Initiative, Cornell Tech"
+version: "0.1"
+date-released: "2026-10-09"
+license: CC-BY-4.0
+url: "https://auto-autobiography.stephenmucher.org"
+repository-code: "https://github.com/stephenmucher/auto-autobiography"
+keywords:
+  - oral history
+  - auto-autobiography
+  - ABER
+  - life review
+  - generative AI
+  - historical method
+  - geragogy
