@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this rubric, please cite it as below."
 type: dataset
 title: "ABER and Oral History: Comparison Rubric"
-abstract: "A preliminary rubric of 33 criteria in four categories (Elicit, Re-tell, Interpret, Retain) that consolidates the disciplinary practices of oral history in a form that facilitates comparison with Automated Biographical Elicitation and Re-tell (ABER) and its product, auto-autobiography."
+abstract: "A preliminary rubric of 33 criteria in four categories (Elicit, Re-tell, Interpret, Retain) that consolidates the disciplinary practices of oral history in a form that facilitates comparison with Automated Biographical Elicitation and Re-tell (ABER) and its product, auto-autobiography, a life narrative grounded in the documented reminiscences of a human author but retold by AI without methodological transparency."
 authors:
   - family-names: Mucher
     given-names: Stephen
@@ -21,3 +21,17 @@ keywords:
   - generative AI
   - historical method
   - geragogy
+references:
+  - type: report
+    title: "Can Oral History and Auto-autobiography Have a Candid Conversation?"
+    authors:
+      - family-names: Mucher
+        given-names: Stephen
+        orcid: "https://orcid.org/0009-0000-8310-0469"
+    institution:
+      name: "Digital Life Initiative, Cornell Tech"
+    collection-title: "Critical Reflections"
+    date-released: "2026-10-12"
+    year: 2026
+    doi: "10.5281/zenodo.23345074"
+    url: "https://dli.tech.cornell.edu/post/can-oral-history-and-auto-autobiography-have-a-candid-conversation"

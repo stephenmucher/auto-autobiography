@@ -8,7 +8,7 @@ Stephen Mucher, Ph.D. · 2026 Visiting Fellow, Digital Life Initiative, Cornell 
 
 ## What this is
 
-Living memoir platforms such as Storyworth, Remento, and Autobiographer use algorithmic question protocols or conversational AI to elicit an older adult's reminiscences, reformulate them, and return them as an audience-sensitive narrative in book form. I call this two-stage process Automated Biographical Elicitation and Re-tell (ABER). I call its product auto-autobiography, a life narrative grounded in the documented reminiscences of a human author but retold without clear methodological transparency.
+Living memoir platforms such as Storyworth, Remento, and Autobiographer use algorithmic question protocols or conversational AI to elicit an older adult's reminiscences, reformulate them, and return them as an audience-sensitive narrative in book form. I call this two-stage process Automated Biographical Elicitation and Re-tell (ABER). I call its product auto-autobiography, a life narrative grounded in the documented reminiscences of a human author but retold by AI without methodological transparency.
 
 This repository holds a preliminary rubric that consolidates the disciplinary practices of oral history in a form that facilitates comparison with auto-autobiography. It draws on the Principles and Best Practices of the Oral History Association (2018), the AHA History Discipline Core (2016), and the NCHS Historical Thinking Standards (1996).
 
@@ -49,7 +49,7 @@ Email also works, at stephen@sondagestandard.com.
 
 Mucher, Stephen. 2026. "ABER and Oral History: Comparison Rubric." Preliminary version 0.1, October 2026. Digital Life Initiative, Cornell Tech. https://auto-autobiography.stephenmucher.org/rubric.html
 
-Mucher, Stephen. 2026. "Can Oral History and Auto-autobiography Have a Candid Conversation?" Digital Life Initiative, Cornell Tech. https://auto-autobiography.stephenmucher.org/essay.html
+Mucher, Stephen. 2026. "Can Oral History and Auto-autobiography Have a Candid Conversation?" Critical Reflections, Digital Life Initiative, Cornell Tech. October 12. https://dli.tech.cornell.edu/post/can-oral-history-and-auto-autobiography-have-a-candid-conversation. https://doi.org/10.5281/zenodo.23345074
 
 GitHub's "Cite this repository" button gives the same reference in APA and BibTeX form.
 
